@@ -65,16 +65,16 @@
         <input type="text" id="user_input" class="form-control" placeholder="Type your question...">
         <div class="input-group-append">
             <button id="send_btn" class="btn btn-primary">Send</button>
-            <button id="refresh_btn" class="btn btn-secondary ml-2">Refresh</button> <!-- Added margin-left for spacing -->
+            <button id="refresh_btn" class="btn btn-secondary ml-2">New Chat</button> <!-- Added margin-left for spacing -->
         </div>
     </div>
 
     <script>
-                $(document).ready(function(){
+        $(document).ready(function(){
             $('#send_btn').click(function(){
                 sendMessage();
             });
-
+    
             // Trigger send message on pressing Enter key
             $('#user_input').keypress(function(e) {
                 if (e.which === 13) { // 13 is the Enter key
@@ -82,7 +82,7 @@
                     sendMessage(); // Call the send message function
                 }
             });
-
+    
             // Function to send a message
             function sendMessage() {
                 const query = $('#user_input').val();
@@ -96,11 +96,22 @@
                 
                 // Send the query to the server
                 $.post('/chat', {query: query}, function(data){
-                    $('#conversation').append(`<div class="message chatbot">Chatbot: ${data.response}</div>`);
+                    // Unpack the response and links
+                    const chatbotResponse = data.response; // Main response
+                    const links = data.links; // List of links
+    
+                    // Append the chatbot's main response
+                    $('#conversation').append(`<div class="message chatbot">Chatbot: ${chatbotResponse}</div>`);
+                    
+                    // Append the links, if any
+                    if (links.length > 0) {
+                        $('#conversation').append(`<div class="message chatbot">Sources: ${links.join(', ')}</div>`);
+                    }
+    
                     $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding chatbot response
                 });
             }
-
+    
             // Refresh Button Functionality
             $('#refresh_btn').click(function(){
                 $('#conversation').empty(); // Clear the chat
@@ -111,7 +122,7 @@
                 });
             });
         });
-
     </script>
+    
 </body>
 </html>

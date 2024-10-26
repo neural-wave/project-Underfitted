@@ -55,5 +55,6 @@ class LLM_request:
 
         ai_msg = llm.invoke(prompt).content
 
-        return ai_msg + '\n' + '\n' + str(set(list_websites))
+        # return ai_msg + '\n' + '\n' + str(set(list_websites))
+        return ai_msg, list_websites
         

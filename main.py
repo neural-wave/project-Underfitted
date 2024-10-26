@@ -39,13 +39,13 @@ def chat():
     
     # Generate chatbot response
     llm_req = LLM_request(Retriever=r, query=query, history=history)
-    output = llm_req.send_lmm_request()
+    ai_msg, links = llm_req.send_lmm_request()
 
     # Append current input and output to history
-    history.append({"user": query, "llm": output})
+    history.append({"user": query, "llm": ai_msg})
     
     # Return chatbot response
-    return jsonify({"response": output})
+    return jsonify({"response": ai_msg, "links": links})
 
 @app.route('/refresh', methods=['POST'])
 def refresh():
