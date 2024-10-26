@@ -34,7 +34,7 @@
         }
         .user {
             text-align: right;
-            color: #007bff;
+            color: #000000;
         }
         .chatbot {
             text-align: left;
@@ -101,7 +101,7 @@
                 $('#send_btn').prop('disabled', true);
                 
                 // Use <br> for line break
-                $('#conversation').append(`<div class="message user" style="color: #007bff;">You:<br> ${query}</div>`);
+                $('#conversation').append(`<div class="message user">You:<br> ${query}</div>`);
                 $('#user_input').val(''); // Clear the input field immediately after sending the message
                 $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding the user message
 
@@ -119,7 +119,7 @@
                     $('#conversation .thinking').remove();
 
                     // Append the chatbot's main response
-                    $('#conversation').append(`<div class="message chatbot">Chatbot: ${chatbotResponse}</div>`);
+                    $('#conversation').append(`<div class="message chatbot">Chatbot:<br> ${chatbotResponse}</div>`);
                     
                     // Append the links, if any
                     if (links.length > 0) {
