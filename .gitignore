@@ -1,0 +1,9 @@
+data*
+dataset
+.idea
+.vscode/
+.bash_history
+.lightning_studio/
+*.csv
+*.db
+.vscode*

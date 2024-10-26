@@ -1,0 +1,3 @@
+openai
+langchain-openai
+pip install --quiet --upgrade langchain langchain-community langchain-chroma
