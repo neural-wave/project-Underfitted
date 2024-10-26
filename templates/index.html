@@ -113,7 +113,7 @@
                 $.post('/chat', {query: query}, function(data){
                     // Unpack the response and links
                     const chatbotResponse = data.response; // Main response
-                    const links = data.links; // List of links
+                    const links = data.links;
 
                     // Remove the thinking message
                     $('#conversation .thinking').remove();
