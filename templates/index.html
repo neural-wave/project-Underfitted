@@ -105,7 +105,9 @@
                     
                     // Append the links, if any
                     if (links.length > 0) {
-                        $('#conversation').append(`<div class="message chatbot">Sources: ${links.join(', ')}</div>`);
+                        // Create clickable links with shortened labels
+                        const sourcesHtml = links.map((link, index) => `<a href="${link}" target="_blank" style="color: #007bff;">link${index + 1}</a>`).join(', ');
+                        $('#conversation').append(`<div class="message chatbot" style="color: #6c757d;">Sources: ${sourcesHtml}</div>`);
                     }
     
                     $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding chatbot response
@@ -123,6 +125,7 @@
             });
         });
     </script>
+    
     
 </body>
 </html>
