@@ -70,32 +70,46 @@
     </div>
 
     <script>
-        $(document).ready(function(){
-            $('#send_btn').click(function(){
-                const query = $('#user_input').val();
-                if (!query.trim()) {
-                    alert("Please enter a question!");
-                    return;
-                }
-                $('#conversation').append(`<div class="message user">You: ${query}</div>`);
-                $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding the user message
-                $.post('/chat', {query: query}, function(data){
-                    $('#conversation').append(`<div class="message chatbot">Chatbot: ${data.response}</div>`);
-                    $('#user_input').val('');
-                    $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding chatbot response
-                });
-            });
+            $(document).ready(function(){
+        $('#send_btn').click(function(){
+            sendMessage();
+        });
 
-            // Refresh Button Functionality
-            $('#refresh_btn').click(function(){
-                $('#conversation').empty(); // Clear the chat
-                $('#user_input').val(''); // Clear the input
-                $.post('/refresh', {}, function(data){
-                    $('#conversation').append(`<div class="message chatbot">Chatbot memory has been refreshed!</div>`);
-                    $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after clearing
-                });
+        // Trigger send message on pressing Enter key
+        $('#user_input').keypress(function(e) {
+            if (e.which === 13) { // 13 is the Enter key
+                e.preventDefault(); // Prevent the default action (form submission)
+                sendMessage(); // Call the send message function
+            }
+        });
+
+        // Function to send a message
+        function sendMessage() {
+            const query = $('#user_input').val();
+            if (!query.trim()) {
+                alert("Please enter a question!");
+                return;
+            }
+            $('#conversation').append(`<div class="message user">You: ${query}</div>`);
+            $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding the user message
+            $.post('/chat', {query: query}, function(data){
+                $('#conversation').append(`<div class="message chatbot">Chatbot: ${data.response}</div>`);
+                $('#user_input').val('');
+                $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding chatbot response
+            });
+        }
+
+        // Refresh Button Functionality
+        $('#refresh_btn').click(function(){
+            $('#conversation').empty(); // Clear the chat
+            $('#user_input').val(''); // Clear the input
+            $.post('/refresh', {}, function(data){
+                $('#conversation').append(`<div class="message chatbot">Chatbot memory has been refreshed!</div>`);
+                $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after clearing
             });
         });
+});
+
     </script>
 </body>
 </html>
