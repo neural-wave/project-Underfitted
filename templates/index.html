@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swisscom Chatbot</title>
+    <link rel="icon" href="https://cdn.freelogovectors.net/wp-content/uploads/2024/02/swisscom_logo-freelogovectors.net_.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+        #conversation {
+            flex: 1; /* Takes all available space above the input bar */
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            padding: 15px;
+            background-color: white;
+            margin-bottom: 10px; /* Space above the input bar */
+            overflow-y: auto; /* Allows scrolling within the conversation box */
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+        #user_input {
+            flex: 1; /* Allow the input to take remaining space */
+        }
+        .message {
+            margin: 5px 0;
+        }
+        .user {
+            text-align: right;
+            color: #007bff;
+        }
+        .chatbot {
+            text-align: left;
+            color: #28a745;
+        }
+        /* Static Logo Styles */
+        .logo {
+            width: 50px; /* Adjust size as needed */
+            height: 50px;
+            background-image: url('https://cdn.freelogovectors.net/wp-content/uploads/2024/02/swisscom_logo-freelogovectors.net_.png');
+            background-size: contain; /* Ensures the image fits within the div */
+            background-repeat: no-repeat; /* Prevents image repetition */
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px; /* Space between text and logo */
+        }
+        .input-group {
+            margin-bottom: 10px; /* Margin below the input bar */
+        }
+    </style>
+</head>
+<body class="container mt-5">
+    <h1 class="text-center">Swisscom Chatbot
+        <div class="logo"></div>
+    </h1>
+    <div id="conversation" class="mb-3"></div>
+    <div class="input-group">
+        <input type="text" id="user_input" class="form-control" placeholder="Type your question...">
+        <div class="input-group-append">
+            <button id="send_btn" class="btn btn-primary">Send</button>
+            <button id="refresh_btn" class="btn btn-secondary ml-2">Refresh</button> <!-- Added margin-left for spacing -->
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#send_btn').click(function(){
+                const query = $('#user_input').val();
+                if (!query.trim()) {
+                    alert("Please enter a question!");
+                    return;
+                }
+                $('#conversation').append(`<div class="message user">You: ${query}</div>`);
+                $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding the user message
+                $.post('/chat', {query: query}, function(data){
+                    $('#conversation').append(`<div class="message chatbot">Chatbot: ${data.response}</div>`);
+                    $('#user_input').val('');
+                    $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after adding chatbot response
+                });
+            });
+
+            // Refresh Button Functionality
+            $('#refresh_btn').click(function(){
+                $('#conversation').empty(); // Clear the chat
+                $('#user_input').val(''); // Clear the input
+                $.post('/refresh', {}, function(data){
+                    $('#conversation').append(`<div class="message chatbot">Chatbot memory has been refreshed!</div>`);
+                    $('#conversation').scrollTop($('#conversation')[0].scrollHeight); // Scroll to bottom after clearing
+                });
+            });
+        });
+    </script>
+</body>
+</html>

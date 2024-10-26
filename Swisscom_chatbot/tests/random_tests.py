@@ -1,6 +1,5 @@
 import time
-import numpy as np
-import torch
+
 
 from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders.csv_loader import CSVLoader
