@@ -1,19 +1,19 @@
 [
     {
         "input": "Guten Morgen, ich will keine Monatsrechnung sondern zwei MOnatig oder mehr",
-        "prediction": "Guten Morgen! Leider gibt es in den bereitgestellten Informationen keine spezifischen Details darüber, ob Swisscom die Möglichkeit bietet, Rechnungen in einem anderen Intervall als monatlich zu erhalten, wie z.B. alle zwei Monate. Ich empfehle Ihnen, sich direkt an den Swisscom-Kundendienst zu wenden, um zu klären, ob diese Option verfügbar ist. Sie können den Kundendienst unter der Nummer 0800 555 155 erreichen.\nLinks: ['https://www.swisscom.ch/en/residential/help/e-mail/subscription-account.html', 'https://www.swisscom.ch/it/clienti-privati/assicurazioni/protezione-legale.html']",
+        "prediction": "",
         "language": "de",
         "id": "fc4ab7f4-0dd1-4982-a1e8-af12eb85f697"
     },
     {
         "input": "Guten Tag Ich w\u00fcrde gerne Eink\u00e4ufe f\u00fcr Drittanbieter aktivieren.",
-        "prediction": "Guten Tag! Um Einkäufe für Drittanbieter zu aktivieren, benötigen Sie in der Regel Zugang zu Ihrem Swisscom-Konto, um die entsprechenden Einstellungen vorzunehmen. Leider enthalten die bereitgestellten Informationen keine spezifischen Anweisungen zur Aktivierung von Einkäufen für Drittanbieter. Ich empfehle Ihnen, sich in Ihr My Swisscom-Konto einzuloggen und dort nach den entsprechenden Optionen zu suchen oder den Swisscom-Kundendienst direkt zu kontaktieren, um weitere Unterstützung zu erhalten.\nLinks: ['https://www.swisscom.ch/fr/clients-prives/aide/reseau-fixe/sip-credentials.html', 'https://www.swisscom.ch/en/business/enterprise/forms/offerte-kontakt-gf.html/content/swisscom/en/biz/etp/angebot/platforms-applications/data-driven-business/data-insights-service']",
+        "prediction": "",
         "language": "de",
         "id": "61a339c1-5cdc-4ab3-996d-572c2908d86f"
     },
     {
         "input": "Hallo! Wir haben in Alpnach Dorf in Obwalden keinen Zugang mehr zum Internet Telefonie und TV. Ich bitte um Info wann der Fehler wieder behoben ist",
-        "prediction": "Es tut mir leid, aber ich habe keine spezifischen Informationen über aktuelle Störungen oder Ausfälle in Alpnach Dorf, Obwalden. Ich empfehle Ihnen, die Swisscom-Website unter [www.swisscom.ch/status](https://www.swisscom.ch/status) zu besuchen, um Informationen über aktuelle Störungen und Wartungsarbeiten zu erhalten. Alternativ können Sie auch den Swisscom-Kundendienst kontaktieren, um weitere Unterstützung zu erhalten.\nLinks: ['https://www.swisscom.ch/en/residential/price-overview.html', 'https://www.swisscom.ch/it/clienti-privati/aiuto/stato-rete-servizi.html']",
+        "prediction": "",
         "language": "de",
         "id": "a85a891c-3040-4d4b-aa72-d211bfe6d7ed"
     },
