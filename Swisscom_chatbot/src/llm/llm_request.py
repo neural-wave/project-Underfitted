@@ -32,7 +32,7 @@ class LLM_request:
                 The customer's question is: {customer_question}."""
         )
 
-        # history:
+        
         # context: (retrieved docs)
         context, list_websites = self.r.retrieve(query=self.query, k=self.k)
 

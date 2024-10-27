@@ -1,0 +1,464 @@
+[
+    {
+        "input": "Guten Morgen, ich will keine Monatsrechnung sondern zwei MOnatig oder mehr",
+        "prediction": "Guten Morgen! Leider gibt es in den bereitgestellten Informationen keine spezifischen Details darüber, ob Swisscom die Möglichkeit bietet, Rechnungen in einem anderen Intervall als monatlich zu erhalten, wie z.B. alle zwei Monate. Ich empfehle Ihnen, sich direkt an den Swisscom-Kundendienst zu wenden, um zu klären, ob diese Option verfügbar ist. Sie können den Kundendienst unter der Nummer 0800 555 155 erreichen.\nLinks: ['https://www.swisscom.ch/en/residential/help/e-mail/subscription-account.html', 'https://www.swisscom.ch/it/clienti-privati/assicurazioni/protezione-legale.html']",
+        "language": "de",
+        "id": "fc4ab7f4-0dd1-4982-a1e8-af12eb85f697"
+    },
+    {
+        "input": "Guten Tag Ich w\u00fcrde gerne Eink\u00e4ufe f\u00fcr Drittanbieter aktivieren.",
+        "prediction": "Guten Tag! Um Einkäufe für Drittanbieter zu aktivieren, benötigen Sie in der Regel Zugang zu Ihrem Swisscom-Konto, um die entsprechenden Einstellungen vorzunehmen. Leider enthalten die bereitgestellten Informationen keine spezifischen Anweisungen zur Aktivierung von Einkäufen für Drittanbieter. Ich empfehle Ihnen, sich in Ihr My Swisscom-Konto einzuloggen und dort nach den entsprechenden Optionen zu suchen oder den Swisscom-Kundendienst direkt zu kontaktieren, um weitere Unterstützung zu erhalten.\nLinks: ['https://www.swisscom.ch/fr/clients-prives/aide/reseau-fixe/sip-credentials.html', 'https://www.swisscom.ch/en/business/enterprise/forms/offerte-kontakt-gf.html/content/swisscom/en/biz/etp/angebot/platforms-applications/data-driven-business/data-insights-service']",
+        "language": "de",
+        "id": "61a339c1-5cdc-4ab3-996d-572c2908d86f"
+    },
+    {
+        "input": "Hallo! Wir haben in Alpnach Dorf in Obwalden keinen Zugang mehr zum Internet Telefonie und TV. Ich bitte um Info wann der Fehler wieder behoben ist",
+        "prediction": "Es tut mir leid, aber ich habe keine spezifischen Informationen über aktuelle Störungen oder Ausfälle in Alpnach Dorf, Obwalden. Ich empfehle Ihnen, die Swisscom-Website unter [www.swisscom.ch/status](https://www.swisscom.ch/status) zu besuchen, um Informationen über aktuelle Störungen und Wartungsarbeiten zu erhalten. Alternativ können Sie auch den Swisscom-Kundendienst kontaktieren, um weitere Unterstützung zu erhalten.\nLinks: ['https://www.swisscom.ch/en/residential/price-overview.html', 'https://www.swisscom.ch/it/clienti-privati/aiuto/stato-rete-servizi.html']",
+        "language": "de",
+        "id": "a85a891c-3040-4d4b-aa72-d211bfe6d7ed"
+    },
+    {
+        "input": "\u00c9crire en francais merci",
+        "prediction": "",
+        "language": "de",
+        "id": "b2297a90-735b-48f8-84d9-91d6279a930c"
+    },
+    {
+        "input": "Guten Tag Ich muss mein altes Ger\u00e4t innert 7 Tagen zusenden. Gilt dies sobald ich mein neues habe oder als ich den Vertrag abgeschlossen hatte. M\u00f6chte gerne noch die Daten \u00fcbertragen. Mit besten Gr\u00fcssen",
+        "prediction": "",
+        "language": "de",
+        "id": "837b7907-6aa0-4b37-9146-2ef7b523eb7b"
+    },
+    {
+        "input": "Guten Tag, ich habe heute leider meine Lieferung von der Post verpasst. Jedoch nur um ca. eine Stunde, k\u00f6nnten Sie mir allenfalls die Sendungsnummer mitteilen, dass ich nachforschen kann ob der Lieferdienst noch unterwegs ist?",
+        "prediction": "",
+        "language": "de",
+        "id": "8d0342a6-8002-4ee9-9f84-fbed5de74d09"
+    },
+    {
+        "input": "Hallo Ich m\u00f6chte anonyme anrufe blockieren",
+        "prediction": "",
+        "language": "de",
+        "id": "dba206cf-a420-4c64-9843-189c138d5eaf"
+    },
+    {
+        "input": "hallo swisscom kundenservice mein vater ist bei euch kunde und hat seine logindaten f\u00fcr myswisscom vergessen. ich weiss wegen datenschutz d\u00fcrft ihr mir keine auskunft geben, aber k\u00f6nnt ihr bitte mit ihm in kontakt treten? seine mobilnummer ist 0791234567 wir sind an der gleichen adresse gleicher haushalt",
+        "prediction": "",
+        "language": "de",
+        "id": "d30b57b4-4439-4da0-8906-103897dc8042"
+    },
+    {
+        "input": "Hallo, der Vorbesitzer hat das Internetabo per 30.4.2024 gek\u00fcndigt. John Doe, Einestrasse 1. Kann ich den alten Router abgeben oder vernichten?",
+        "prediction": "",
+        "language": "de",
+        "id": "67e26f19-c8dd-4ccf-b553-ed57bb234f0b"
+    },
+    {
+        "input": "Hallo. Ich kann im Swisscom-Shop den 5G-Internet-Booster nicht finden.",
+        "prediction": "",
+        "language": "de",
+        "id": "723b7c5a-edf8-495b-bcdf-25b1d5abcfcc"
+    },
+    {
+        "input": "Ich m\u00f6chte wissen, was f\u00fcr abos ich bei swisscom habe",
+        "prediction": "",
+        "language": "de",
+        "id": "ca9f9dc3-4297-444f-8410-c31ca7b2cb9f"
+    },
+    {
+        "input": "Ist der Kauf eine Prepaid Karte f\u00fcr Deutsche Urlauber m\u00f6glich?",
+        "prediction": "",
+        "language": "de",
+        "id": "2b52f604-fbf4-41d7-aab6-3705911f2ce6"
+    },
+    {
+        "input": "Kann ich die bluewin.ch adresse nach der k\u00fcndigung weiter verwenden/betreiben?",
+        "prediction": "",
+        "language": "de",
+        "id": "41c3ea68-8127-49b0-9053-61bf536d4b40"
+    },
+    {
+        "input": "Kann ich die IMEI Nummer haben von meinem Iphone 14 pro max deep purpel?",
+        "prediction": "",
+        "language": "de",
+        "id": "5dcdf2f4-c6ca-4f05-81a4-8105cd94ac60"
+    },
+    {
+        "input": "Kann man mein alte Handy zum neu wechseln?",
+        "prediction": "",
+        "language": "de",
+        "id": "5d9c91b9-e864-42b3-bb2d-a789addc0db2"
+    },
+    {
+        "input": "mit welcher Nummer erreiche ich meine combox",
+        "prediction": "",
+        "language": "de",
+        "id": "95ddb1bc-213d-4502-bc18-56154f2d158a"
+    },
+    {
+        "input": "Tv box 5 mit fernbedinung verbinden?",
+        "prediction": "",
+        "language": "de",
+        "id": "17226ce4-caa1-40c2-b918-964410a62add"
+    },
+    {
+        "input": "Vor einiger Zeit konnte ich die Rechnung alle zwei Monate bezahlen, weshalb hat sich das ge\u00e4ndert?",
+        "prediction": "",
+        "language": "de",
+        "id": "5637edbb-32dd-414f-9f21-8343f74a0cb6"
+    },
+    {
+        "input": "Was f\u00fcr ein abo habe ich M oder L?",
+        "prediction": "",
+        "language": "de",
+        "id": "8ee42b5c-1344-436f-8a2d-c7ef4f63c2ec"
+    },
+    {
+        "input": "wenn ich internet abo k\u00fcnde, wieviel benefit verliere ich?",
+        "prediction": "",
+        "language": "de",
+        "id": "e15059ad-4c80-41f7-902f-1e9cf411ada6"
+    },
+    {
+        "input": "Werden Sie mir bei Sunrise k\u00fcnden, wenn ich zu Swisscom wechsle?",
+        "prediction": "",
+        "language": "de",
+        "id": "27d0ebfe-fe30-4c11-bc96-54b7b6507c27"
+    },
+    {
+        "input": "Wie kann ich das Disney Abo k\u00fcndigen ?",
+        "prediction": "",
+        "language": "de",
+        "id": "38aa519b-8b81-4d5d-9d93-586baeefa6d0"
+    },
+    {
+        "input": "wo finde ich die Rechnung zum bezahlen",
+        "prediction": "",
+        "language": "de",
+        "id": "728512fc-7b35-462a-af66-ffc430519226"
+    },
+    {
+        "input": "wo finde ich meine angaben zu meinem abo?",
+        "prediction": "",
+        "language": "de",
+        "id": "eef48b5d-bc7b-4fd1-8f6b-b94e0965006c"
+    },
+    {
+        "input": "Show me all the offers of prepaid",
+        "prediction": "",
+        "language": "en",
+        "id": "63e14bca-63fa-4920-ae8a-c258614e2c57"
+    },
+    {
+        "input": "hello. i seem to have paid the same bill twice",
+        "prediction": "",
+        "language": "en",
+        "id": "626e01a3-6bb6-4168-a149-92c4a634eb68"
+    },
+    {
+        "input": "How do we suspend our fixed line?",
+        "prediction": "",
+        "language": "en",
+        "id": "6bb2dc01-e632-416f-b133-00069b89c9a9"
+    },
+    {
+        "input": "Hi, I have two questions. First, my husband recently passed away, and I would want to know how I can cancel the subscription to itnernet he had stipulated for our flat. I also need to take a new subscription under my name. Thanks a lot for your help.",
+        "prediction": "",
+        "language": "en",
+        "id": "33d6ca2a-7b11-4175-bb1b-b40ce476093b"
+    },
+    {
+        "input": "Could you please advise why the cancellation fee is so high for basic Mobile M with the telephone number 0791234567.? Our understanding is the contract would only have been valid until August 2024, which would have been cheaper to maintain then this cancellation fee you are charging. However this option was not offered to us. When we spoke with swisscom we were advised that we just needed to send our deregistration record, which we did, in order to cancel the contract. Aga",
+        "prediction": "",
+        "language": "en",
+        "id": "002894f3-c8f0-45c3-bd6c-135fd332dda7"
+    },
+    {
+        "input": "hi can i upload my card here?",
+        "prediction": "",
+        "language": "en",
+        "id": "c134e0aa-27f3-43a0-a580-33623e54bbc8"
+    },
+    {
+        "input": "Dear Swisscom, I\u2019m writing regarding my personal account linked to phone number 0791234567. We have completed our home move and I\u2019m confirming that I was able to complete the move without any issues. Thanks for your support",
+        "prediction": "",
+        "language": "en",
+        "id": "a6e0016e-aa21-4cd0-a52e-c72d63672e8a"
+    },
+    {
+        "input": "What\u2019s the price of the combo option",
+        "prediction": "",
+        "language": "en",
+        "id": "55680c7d-0250-4cd6-b51c-bb61506bbe72"
+    },
+    {
+        "input": "Why is blue benefit only -20, when I enter the contract it was -30?",
+        "prediction": "",
+        "language": "en",
+        "id": "583b9937-8055-4924-aeb6-7c02ccc1fd74"
+    },
+    {
+        "input": "How can i watch the football?",
+        "prediction": "",
+        "language": "en",
+        "id": "335b845d-8963-45a2-b2a3-4459aa0cbf10"
+    },
+    {
+        "input": "Hallo, kann ich als bestehender Kunde (blue Internet M) von der Aktion PlayStation 5 Slim Edition + blue Internet M f\u00fcr 36 Monate profitieren oder gilt das nur f\u00fcr Neukunden?",
+        "prediction": "",
+        "language": "en",
+        "id": "29ab20c7-8fd2-4529-8825-a0fa2e0b86ce"
+    },
+    {
+        "input": "Where can i get my wlan name and initial password",
+        "prediction": "",
+        "language": "en",
+        "id": "7fb446b2-aeb1-4f13-bf7f-b5344b943808"
+    },
+    {
+        "input": "Come posso entrare i mycloud da pi\u00f9 di un PC?",
+        "prediction": "",
+        "language": "it",
+        "id": "7a27b58e-74a6-42a6-b8f2-2d56dff2f52d"
+    },
+    {
+        "input": "Buongiorno, Vi contatto per segnalare un guasto alla linea fissa collegata alla nostra abitazione in montagna. Recentemente \u00e8 caduta una pianta che ha strappato il cavo. Volevo sapere i passi da seguire per richiedere la sistemazione/ripristino del cavo. L\u2019abitazione si trova nel comune di Quinto-Ti. Cordialmente Mario Rossi",
+        "prediction": "",
+        "language": "it",
+        "id": "03df9d71-3e29-49a9-9e6b-43638094de11"
+    },
+    {
+        "input": "Buongiorno, possiedo una prepaid swisscome (numero 0791234567). Quando sto effettuando una chiamata non ricevo nessun avviso se un altro utente prova a chiamarmi in quel momento. Al termine della chiamata non ricevo un sms che mi indica che qualcuno ha provato a chiamarmi (come succede quando ho il telefono spento). Come mai? Come posso fare in modo che ricevo l'avviso di chiamata in entrata (come succede per esempio se sto effettuando una chiamata whatsapp e mi arriva una chiamata normale). Grazie e buona giornata",
+        "prediction": "",
+        "language": "it",
+        "id": "197f297e-5cc1-4135-8aca-455eddd9c84a"
+    },
+    {
+        "input": "Boa tarde, poderiam me mandar a palavra passe do WiFi, ou \u00e9 a mesma de antes?",
+        "prediction": "",
+        "language": "it",
+        "id": "51164d57-42ef-4ef2-bf27-045091425b65"
+    },
+    {
+        "input": "Ciao Non eiesco a collegare il telecomando al tv box",
+        "prediction": "",
+        "language": "it",
+        "id": "4d345338-d3e3-4bd3-8fb2-845df6cd330f"
+    },
+    {
+        "input": "Buongiorno, se ordinassi il TV Box 5 in offerta ci sono poi costi di ricezione aggiuntivi?",
+        "prediction": "",
+        "language": "it",
+        "id": "cdfeaff3-bef9-43fe-83b3-3d7e381c7c7e"
+    },
+    {
+        "input": "salve come faccio a configurare il mio galaxy watch6 classic con opzione multi device",
+        "prediction": "",
+        "language": "it",
+        "id": "b7d924c0-d19b-40e1-a4aa-c6b1b97d9e74"
+    },
+    {
+        "input": "Cosa si intende per abbonamento multi device?",
+        "prediction": "",
+        "language": "it",
+        "id": "cbda05e5-e9fd-4fea-a026-92c3b8125e0a"
+    },
+    {
+        "input": "Voglio sapere se sono ancora abbonato a bluetv sport mensile.",
+        "prediction": "",
+        "language": "it",
+        "id": "eab830ec-bd56-442f-ad70-71e8b3917725"
+    },
+    {
+        "input": "Vorrei riascoltare un messaggio nel mio combox gi\u00e0 ascoltato",
+        "prediction": "",
+        "language": "it",
+        "id": "cdd60a72-7dff-4e35-84ee-dae47468651e"
+    },
+    {
+        "input": "Buongiorno volevo sapere a che punto \u00e8 lo stato di riparazione del mio dispositivo",
+        "prediction": "",
+        "language": "it",
+        "id": "be7efb06-373d-467c-8e90-f2a3cc761e50"
+    },
+    {
+        "input": "J\u2019ai r\u00e9silier avec l\u2019op\u00e9rateur salt pour venir chez vous avec un nouvel abo et Swisscom m\u2019a dit qu\u2019ils prenaient en charge les frais de r\u00e9siliation de mon ancien op\u00e9rateur mobil salt",
+        "prediction": "",
+        "language": "fr",
+        "id": "fe01463e-6160-48d4-b374-aefb6383fd92"
+    },
+    {
+        "input": "je n'arrive pas \u00e0 d\u00e9vier les appels entrant sur la messagerie vocale lorsque je suis en ligne",
+        "prediction": "",
+        "language": "fr",
+        "id": "5a34902f-4235-42a0-89e2-67e197a51e75"
+    },
+    {
+        "input": "J'aimerais SVP resilier toutes les options actives Canal+, blue premium, blue supermax, pack Bosna, pack Russia.",
+        "prediction": "",
+        "language": "fr",
+        "id": "6037bcc4-3f4c-49cc-a3b3-cad9c81cad68"
+    },
+    {
+        "input": "Comment souscrire \u00e0 un package de donn\u00e9e pour la Colombie",
+        "prediction": "",
+        "language": "fr",
+        "id": "a0fb4bec-d05a-4793-abf5-4492616c1d5e"
+    },
+    {
+        "input": "Bonjour, ce matin, je r\u00e9ceptionnne un mail de votre part concernant l'adaptation de nos services swisscom, de quoi s'agit-il? Nous n'avons fait aucune demande dans ce sens.",
+        "prediction": "",
+        "language": "fr",
+        "id": "955135aa-b638-4d15-9df5-51d7843bbba4"
+    },
+    {
+        "input": "est il possible de revendre un ipod apple",
+        "prediction": "",
+        "language": "fr",
+        "id": "fa5d61a6-3233-4c51-86a9-9018af17080e"
+    },
+    {
+        "input": "Voici ma preuve de paiement pour la derni\u00e8re facture ouverte, pouvez-vous proc\u00e9der au d\u00e9blocage s\u2019il vous pla\u00eet merci",
+        "prediction": "",
+        "language": "fr",
+        "id": "5756a796-0c61-441c-9a66-aa09d106e54d"
+    },
+    {
+        "input": "je re\u00e7ois depuis hier des appels qui n aboutissent \u00e0 rien lorsque je r\u00e9ponds",
+        "prediction": "",
+        "language": "fr",
+        "id": "8c18a527-3547-4b3f-9803-3dcaf5a21390"
+    },
+    {
+        "input": "Commo je peut \u00e9cout\u00e9 mon conbox",
+        "prediction": "",
+        "language": "fr",
+        "id": "a76ca31b-027c-424c-a702-0aa821678f37"
+    },
+    {
+        "input": "Bonjour, Mon compte myCloud a \u00e9t\u00e9 suspendu et je souhaite r\u00e9cup\u00e9rer les donn\u00e9es et photos, comment faire pour le r\u00e9activer ?",
+        "prediction": "",
+        "language": "fr",
+        "id": "c4c348a1-8867-431a-84ec-48c833f89e47"
+    },
+    {
+        "input": "Bonjour, j\u2019ai une petite question, j\u2019ai eu un soucis avec mon iPhone 14 pro Max et mon assurance me demande la facture d\u2019achat est-ce que c\u2019est possible de l\u2019avoir?",
+        "prediction": "",
+        "language": "fr",
+        "id": "7ff40540-8143-4ee7-972a-36ea90994719"
+    },
+    {
+        "input": "Une facture a \u00e9t\u00e9 d\u00e9bit\u00e9 de mon compte ce matin par erreur pouvez vous refuser le montant",
+        "prediction": "",
+        "language": "fr",
+        "id": "b18b585c-4883-4d8b-81e3-8c760833dc0a"
+    },
+    {
+        "input": "Bonjour, J\u2019ai re\u00e7u sans le demander une Apple box tv chez moi, avec l\u2019offre suivante:",
+        "prediction": "",
+        "language": "fr",
+        "id": "0b40e8da-5d0f-40ae-a077-9df61c2d5df9"
+    },
+    {
+        "input": "Je dois retourner sous-garantie un Panneau solaire Xtorm 21 W. Comment dois-je proc\u00e9der ?",
+        "prediction": "",
+        "language": "fr",
+        "id": "7e0bb5f9-16f1-4c65-8f3d-5de80e816eff"
+    },
+    {
+        "input": "Comment \u00e9couter un message Combox \u00c0 l\u2019\u00e9tranger",
+        "prediction": "",
+        "language": "fr",
+        "id": "cf52e16e-2996-4aef-92a7-b05753b287c7"
+    },
+    {
+        "input": "Mon c\u00e2ble HDMI est cass\u00e9",
+        "prediction": "",
+        "language": "fr",
+        "id": "9a1d271f-f2f5-44af-94b4-de8fe6c91ad5"
+    },
+    {
+        "input": "Bonsoir, je viens de prolonger mon abonnement avec l\u2019achat d\u2019un iphone 15. Au shop la dame m\u2019a expliqu\u00e9 que j\u2019allais aussi recevoir 3 mois Disney+ mais je ne sais pas o\u00f9 trouver cette offre. Vous pouvez m\u2019aider svp?",
+        "prediction": "",
+        "language": "fr",
+        "id": "59c4f52b-e490-4da9-9e63-3d1683f06375"
+    },
+    {
+        "input": "Bonjour, je voudrais si l'offre de 3 mois gratuit sur Disney plus est aussi pour les clients existants.",
+        "prediction": "",
+        "language": "fr",
+        "id": "a7cd1226-f023-426f-8d93-a318ba4e89ff"
+    },
+    {
+        "input": "Puis-je rendre un appareil acheter en magasin?",
+        "prediction": "",
+        "language": "fr",
+        "id": "2bf4ae7a-2d8c-4781-a44f-fd45df5b6d65"
+    },
+    {
+        "input": "Je d\u00e9sire imprimer ma derni\u00e8re facture",
+        "prediction": "",
+        "language": "fr",
+        "id": "8bc36e3f-57df-4bf0-b656-92d6373d7a7e"
+    },
+    {
+        "input": "Bonjour, est ce que j\u2019ai une garantie pour mes AirPods",
+        "prediction": "",
+        "language": "fr",
+        "id": "0389281a-bd69-443e-b3c4-8e01434dd584"
+    },
+    {
+        "input": "Bonsoir Depuis 2 jours je re\u00e7ois des appels de num\u00e9ros que je ne connais pas me demandant d arr\u00eater de les appeler les interlocuteurs parlent suisse allemand Est-il possible qu un m\u00eame num\u00e9ro soit attribu\u00e9 \u00e0 deux personnes ? Merci d essayer de comprendre car c est tr\u00e8s d\u00e9rangeant.",
+        "prediction": "",
+        "language": "fr",
+        "id": "fd317109-1833-48cd-9db9-989c7c99f443"
+    },
+    {
+        "input": "Bonjour, j\u2019ai un abonnement pour mon t\u00e9l\u00e9phone mobile. Est ce que je peux le partager avec une apple watch ?",
+        "prediction": "",
+        "language": "fr",
+        "id": "fc5aa079-e742-49c3-8c04-482a266fea64"
+    },
+    {
+        "input": "Je souhaite annul\u00e9 l abonnement Disney plus",
+        "prediction": "",
+        "language": "fr",
+        "id": "ff69f1af-e653-434a-ace6-639f78541daf"
+    },
+    {
+        "input": "Bonjour, peut on deposer des anciens tel portables chez Swisscom et si oui, sont ils \u00ab&nbsp; vid\u00e9s&nbsp;\u00bb avant d\u2019etre recycl\u00e9s? Merci",
+        "prediction": "",
+        "language": "fr",
+        "id": "0ab4d7fa-1f0a-46d0-9206-e7ab8e87fec9"
+    },
+    {
+        "input": "Bonjour pouvez vous me dire si les donn\u00e9e \u00e0 l\u2019\u00e9tranger sont gratuites je suis en France",
+        "prediction": "",
+        "language": "fr",
+        "id": "0346da60-8273-4545-af16-89568d9273fb"
+    },
+    {
+        "input": "J'ai r\u00e9sili\u00e9 mon abonnement blue home pour le 31.08.2024 et j'ai re\u00e7u le message que j'allais perdre mes adresse e-mail et que j'avais 90 jours apr\u00e8s la r\u00e9siliation. Si j'ai bien compris, c'est apr\u00e8s le 31.08.2024 que je peux faire la d\u00e9marche, pas avant ?",
+        "prediction": "",
+        "language": "fr",
+        "id": "d2d0f777-08fd-4fa8-a682-0e6c00f4a5b3"
+    },
+    {
+        "input": "Bonjour, j\u2019aurais souhait\u00e9 conna\u00eetre le dernier num\u00e9ro de t\u00e9l\u00e9phone fixe qui a \u00e9t\u00e9 attribu\u00e9 \u00e0 la Avenue Eiffel. Merci beaucoup.",
+        "prediction": "",
+        "language": "fr",
+        "id": "1c858b3e-b537-4303-947d-089fe5d7cd65"
+    },
+    {
+        "input": "Ecrivez-moi en fran\u00e7ais !",
+        "prediction": "",
+        "language": "fr",
+        "id": "d47ff5e4-f8f3-444b-b148-c08f29377136"
+    },
+    {
+        "input": "je ne veux pas changer d'abonnement",
+        "prediction": "",
+        "language": "fr",
+        "id": "b35598af-d01c-46ee-8138-2865bf0689c7"
+    }
+]
