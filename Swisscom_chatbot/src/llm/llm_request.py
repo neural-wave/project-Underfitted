@@ -16,7 +16,7 @@ class LLM_request:
         self.r = Retriever
         self.query = query
         self.history = history
-        self.k = 10
+        self.k = 10 # numeber of retrieved documents for context
 
 
     def build_prompt(self):

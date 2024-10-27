@@ -27,21 +27,13 @@ class Retriever:
         # rerank
         documents_reranked = voyageai.Client().rerank(query, docs_from_similarity_search_0, model="rerank-2", top_k=k)
 
-
-        #for r in documents_reranked.results:
-            ##print("#######################")
-            #print(f"Document: {r.document[:200]}")
-            ##print(f"Relevance Score: {r.relevance_score}")
-            ##print(f"Index: {r.index}")
-            #print()
-            #print()
-            #print("ooooooooooooooooo#############. :  ", docs_from_similarity_search[r.index].metadata)
-            #print()
-            #print()
-            #print()
-
-        
         #print("ooooooooooooooooo#############", docs_from_similarity_search[4].metadata.keys())
+
+        for d in documents_reranked.results:
+            print('#############DOCUMENT###############')
+            print(d.document)
+            print('#############SOURCE################')
+            print(docs_from_similarity_search[d.index].metadata['source'])
             
-        return [d.document for d in documents_reranked.results], [docs_from_similarity_search[r.index].metadata['source'] for r in documents_reranked.results]
+        return [d.document for d in documents_reranked.results], list(set([docs_from_similarity_search[r.index].metadata['source'] for r in documents_reranked.results]))
 
