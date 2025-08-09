@@ -4,9 +4,9 @@
 
 ## Developers
 
-Matteo Vitali
-Luigi Tisci
-Paolo Deidda
+Matteo Vitali  
+Luigi Tisci  
+Paolo Deidda  
 Diell Kryeziu
 
 ## Requirements
