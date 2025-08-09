@@ -2,6 +2,13 @@
 
 [Link to the Video](https://www.loom.com/share/d01cbc1d226e401d96783ad5fb3b3c87?sid=e1578bc6-0fc9-402e-a22f-52dc859eb04b)
 
+## Developers
+
+Matteo Vitali
+Luigi Tisci
+Paolo Deidda
+Diell Kryeziu
+
 ## Requirements
 
 We recommend using Python **3.10** for this project. Ensure you have [Python 3.10](https://www.python.org/downloads/release/python-31015/) installed.
