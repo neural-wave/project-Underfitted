@@ -1,60 +1,76 @@
-## Project Showcase
+# Swisscom Customer Support Chatbot
 
-[Link to the Video](https://www.loom.com/share/d01cbc1d226e401d96783ad5fb3b3c87?sid=e1578bc6-0fc9-402e-a22f-52dc859eb04b)
+Built for the **NeuralWave 2024 Hackathon** in partnership with Swisscom — a RAG-based conversational assistant that answers customer support queries grounded in Swisscom's internal documentation.
+---
 
-## Developers
+## How it works
 
-Matteo Vitali  
-Luigi Tisci  
-Paolo Deidda  
-Diell Kryeziu
+Standard single-stage similarity search degrades on domain-specific jargon — Swisscom's documentation uses Swiss telecom product names that embedding similarity handles poorly. The solution is a **two-stage retrieval pipeline**:
 
-## Requirements
-
-We recommend using Python **3.10** for this project. Ensure you have [Python 3.10](https://www.python.org/downloads/release/python-31015/) installed.
-
-## Installation
-
-To install the required packages, follow these steps:
-
-1. **Create a virtual environment (optional but recommended):**
-
-   ```bash
-   python -m venv myenv
-   ```
-
-2. **Activate the virtual environment:**
-
-   - On macOS/Linux:
-
-     ```bash
-     source myenv/bin/activate
-     ```
-
-   - On Windows:
-
-     ```bash
-     myenv\Scripts\activate
-     ```
-
-3. **Install the required packages:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   If you encounter any missing package errors or conflicts, you may need to resolve them by installing the specific packages manually. Check the error messages for guidance.
-
-## Running the Application
-
-Once all dependencies are installed, you can run the application using:
-
-```bash
-python main.py
+```
+User query
+    │
+    ▼
+VoyageAI voyage-3 embeddings → ChromaDB similarity search → top 50 candidates
+    │
+    ▼
+VoyageAI rerank-2 → top 10 reranked documents
+    │
+    ▼
+GPT-4o + conversation history → response with source links
 ```
 
-Flask will print the address where the app is running (e.g., http://127.0.0.1:5000/). You can open this address in your web browser to access the application.
+Reranking at the second stage significantly improves precision: the first stage casts a wide net (top 50), the reranker selects the 10 most relevant before passing context to the LLM.
 
-## License
+## Tech stack
 
-This project is licensed under the MIT License.
+| Layer | Technology |
+|---|---|
+| Embeddings | VoyageAI `voyage-3` |
+| Vector store | ChromaDB |
+| Reranking | VoyageAI `rerank-2` |
+| LLM | OpenAI GPT-4o |
+| Orchestration | LangChain |
+| Interface | Flask |
+
+## Setup
+
+Requires Python 3.10+, an OpenAI API key, and a VoyageAI API key.
+
+```bash
+git clone https://github.com/neural-wave/project-Underfitted.git
+cd project-Underfitted
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Create a `.env` file:
+```
+OPENAI_API_KEY=your-key
+VOYAGE_API_KEY=your-key
+```
+
+Update the dataset paths in `main.py` to point to your document collection, then:
+```bash
+python main.py
+# Open http://127.0.0.1:5000
+```
+
+## Project structure
+
+```
+project-Underfitted/
+├── Swisscom_chatbot/src/
+│   ├── data/        # document loading and preprocessing
+│   ├── retrieve/    # ChromaDB vector store + two-stage retriever
+│   └── llm/         # GPT-4o prompt builder and request handler
+├── templates/       # Flask chat UI
+├── docs/assignment/ # original hackathon brief
+├── main.py          # Flask entrypoint
+└── requirements.txt
+```
+
+## Team
+
+Matteo Vitali · Luigi Tisci · Paolo Deidda · Diell Kryeziu  
+*NeuralWave Hackathon 2024 — Team Underfitted*
