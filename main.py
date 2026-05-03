@@ -1,4 +1,5 @@
 # Import necessary modules
+import os
 from flask import Flask, request, jsonify, render_template
 from Swisscom_chatbot.src.retrieve.VSbuilder import VectorStore
 from Swisscom_chatbot.src.retrieve.retriever import Retriever
@@ -11,7 +12,7 @@ warnings.filterwarnings('ignore', category=LangChainDeprecationWarning)
 # Settings
 folder_dataset_path = 'dataset/processed_parsed_documents'
 csv_path = "resumed_reduced.csv"
-persist_directory = "/teamspace/studios/this_studio"
+persist_directory = os.getenv("CHROMA_PERSIST_DIR", "./chroma_db")
 
 # Build retriever
 def create_retriever():
